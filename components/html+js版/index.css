@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+/* .incomeDetail{ */
+.incomeDetail .rise {
+  font-family: DINPro-Medium;
+  font-size: 16px;
+  color: #EC2E31;
+  text-align: right;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.incomeDetail .decline {
+  font-family: DINPro-Medium;
+  font-size: 16px;
+  color: #4CAA5D;
+  text-align: right;
+  line-height: 22px;
+}
+
+.incomeDetail .incomeDetail__name {
+  padding: 20px 0 10px;
+}
+
+.incomeDetail .cumulative-income {
+
+  padding: 20px 15px;
+  background-color: #FAFAFA !important;
+  position: relative;
+  height: 22px;
+  line-height: 22px;
+}
+
+.incomeDetail .cumulative-income .cumulative-income__name {
+  float: left;
+  margin-top: 0px;
+  font-size: 16px;
+  color: #1F1F1F;
+}
+
+.incomeDetail .cumulative-income .cumulative-income__value {
+  float: right;
+  margin-right: 15px;
+  font-size: 16px;
+  color: #1F1F1F;
+}
+
+.incomeDetail .cumulative-income .cumulative-income__value .yuan {
+  font-family: PingFang-SC-Medium;
+  font-size: 16px;
+  color: #A1A1A1;
+  text-align: right;
+  line-height: 22px;
+}
+
+
+/* } */
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 6px solid #777777;
+  position: absolute;
+  top: 28px;
+  right: 15px;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid #777777;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+.records {
+  padding: 0 0 16px;
+  background-color: #fff;
+}
+
+.records ul {
+  background-color: #FAFAFA;
+  padding: 17px 15px;
+}
+
+.records .records__item {
+  overflow: hidden;
+  margin-bottom: 8px;
+  background: #F5F5F5;
+  /* &:last-child { margin-bottom: 0;} */
+}
+
+.records .records__item .percent {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #A1A1A1;
+  transition: all .3s;
+}
+
+.records .records__item .percent .percent__date {
+  margin-left: 16px;
+  line-height: 33px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.records .records__item .percent .percent__value {
+  margin-right: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.records .records__item .percent--rise {
+  background-color: #F62635 !important;
+}
+
+.records .records__item .percent--decline {
+  background-color: #4CAA5D !important;
+}
