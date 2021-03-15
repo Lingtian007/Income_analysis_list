@@ -2,4 +2,4 @@
 [jquery官网](https://jquery.com/)
 
 ## 效果图:
-![](https://github.com/Lingtian007/Income_analysis_list/tree/main/components/pic)
+![](https://github.com/Lingtian007/Income_analysis_list/tree/main/components/pic/xgt.jpg)
