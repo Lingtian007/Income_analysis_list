@@ -1,4 +1,4 @@
-# 基于jq的-收益组件
+# 基于jq的-收益明细滚动组件
 [jquery官网](https://jquery.com/)
 
 ## 效果图:

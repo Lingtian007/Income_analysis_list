@@ -241,7 +241,6 @@ function watchScroll(target) {
 * 展示隐藏收益盈亏 列表
 */
 function switchBenefits() {
-  console.log('===当前 1234===', 1234);
   // 获取三角形元素
   let getTriangle = $("#triangle");
   // 是否存在向上箭头
@@ -263,10 +262,8 @@ function switchBenefits() {
   } else {
     getTriangle.removeClass("triangle-down");
     getTriangle.toggleClass("triangle-up");
-
     isShow = true
-    // 初始化收益明细
-    // this.incomeInit();
   }
 }
+// 初始化收益明细
 init_detail()
